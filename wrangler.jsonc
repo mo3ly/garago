@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "carago",
+  "compatibility_date": "2026-10-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "observability": {
+    "enabled": true,
+  },
+  "routes": [
+    { "pattern": "carago.qa", "custom_domain": true },
+    { "pattern": "www.carago.qa", "custom_domain": true },
+  ],
+}

@@ -2,6 +2,7 @@ import { HeadContent, Scripts, createRootRoute } from "@tanstack/react-router"
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools"
 import { TanStackDevtools } from "@tanstack/react-devtools"
 
+import { RegisterPwa } from "@/components/register-pwa"
 import appCss from "../styles.css?url"
 
 export const Route = createRootRoute({
@@ -15,13 +16,51 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "TanStack Start Starter",
+        title: "Garago — Your Car. Our Garages.",
+      },
+      {
+        name: "description",
+        content:
+          "Qatar's garage delivery platform. Find a trusted garage in Doha. We pick up your car and bring it back.",
+      },
+      {
+        name: "theme-color",
+        content: "#FF6A00",
+      },
+      {
+        name: "apple-mobile-web-app-capable",
+        content: "yes",
+      },
+      {
+        name: "mobile-web-app-capable",
+        content: "yes",
+      },
+      {
+        name: "apple-mobile-web-app-status-bar-style",
+        content: "default",
+      },
+      {
+        name: "apple-mobile-web-app-title",
+        content: "Garago",
       },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      {
+        rel: "icon",
+        href: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        rel: "apple-touch-icon",
+        href: "/icons/apple-touch-icon.png",
+      },
+      {
+        rel: "manifest",
+        href: "/manifest.webmanifest",
       },
     ],
   }),
@@ -53,6 +92,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             },
           ]}
         />
+        <RegisterPwa />
         <Scripts />
       </body>
     </html>

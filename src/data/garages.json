@@ -1,0 +1,1712 @@
+[
+  {
+    "id": 1,
+    "name": "Auto Squad Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "All kinds of mechanical, electrical and body works; facelift services.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Auto%20Squad%20Garage"
+  },
+  {
+    "id": 2,
+    "name": "Yehia Car Care",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Ain Khaled",
+    "area_ar": "عين خالد",
+    "zone": "56",
+    "lat": 25.2258,
+    "lon": 51.4572,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Paint protection films and window tinting.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Yehia%20Car%20Care"
+  },
+  {
+    "id": 3,
+    "name": "Silverstone Automotive",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "British",
+      "German",
+      "Italian"
+    ],
+    "car_origins_ar": [
+      "بريطاني",
+      "ألماني",
+      "إيطالي"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Large mechanical workshop handling multiple vehicles at once.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Silverstone%20Automotive"
+  },
+  {
+    "id": 4,
+    "name": "Al Asala Auto Car",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "German"
+    ],
+    "car_origins_ar": [
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "German car specialist (Mercedes, BMW); service and spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al%20Asala%20Auto%20Car"
+  },
+  {
+    "id": 5,
+    "name": "Unifour Auto Parts",
+    "services_en": [
+      "Body Work",
+      "Electrical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء"
+    ],
+    "car_origins_en": [
+      "American",
+      "German",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Chinese car spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Unifour%20Auto%20Parts"
+  },
+  {
+    "id": 6,
+    "name": "Kia Spare Parts",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "KIA spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Kia%20Spare%20Parts"
+  },
+  {
+    "id": 7,
+    "name": "Q Car Code",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "15",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Services for all brands.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Q%20Car%20Code"
+  },
+  {
+    "id": 8,
+    "name": "ABDULLA AUTOMOBILE GARAGE",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "One-stop car repair.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/ABDULLA%20AUTOMOBILE%20GARAGE"
+  },
+  {
+    "id": 9,
+    "name": "Al-Mehy Motors",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "German",
+      "Japanese"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني",
+      "ياباني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al-Mehy%20Motors"
+  },
+  {
+    "id": 10,
+    "name": "Zero Car Center",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Painting, body and accident repair, polishing, modifications, spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Zero%20Car%20Center"
+  },
+  {
+    "id": 11,
+    "name": "SmartKeyCopying",
+    "services_en": [
+      "Mechanical"
+    ],
+    "services_ar": [
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "26",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Car key services with home delivery; lockout help.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/SmartKeyCopying"
+  },
+  {
+    "id": 12,
+    "name": "Dohar Motors Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Quick service, engine and gearbox repair, suspension, steering, AC, paint and dent, glass, electrical, used parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Dohar%20Motors%20Garage"
+  },
+  {
+    "id": 13,
+    "name": "Al Urooj Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "AC, oil change, tyres, electrical, mechanical, keys, dent and paint, insurance claims; pay-later installments.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al%20Urooj%20Garage"
+  },
+  {
+    "id": 14,
+    "name": "Tint Zone Car Protection",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Al Aziziya",
+    "area_ar": "العزيزية",
+    "zone": "55",
+    "lat": 25.2426,
+    "lon": 51.4467,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Tinting, polishing, PPF; home service available.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Tint%20Zone%20Car%20Protection"
+  },
+  {
+    "id": 15,
+    "name": "Fly Zone Group",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "74",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Automotive services from accessories to repairs.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Fly%20Zone%20Group"
+  },
+  {
+    "id": 16,
+    "name": "AA Roadside Assistance- Breakdown Services",
+    "services_en": [
+      "Mechanical"
+    ],
+    "services_ar": [
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "",
+    "lat": "",
+    "lon": "",
+    "hours": "24 hours, 7 days",
+    "summary": "Battery replacement, jump start, tyre change, fuel delivery, towing; 24/7.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/AA%20Roadside%20Assistance-%20Breakdown%20Services"
+  },
+  {
+    "id": 17,
+    "name": "Qatar Car Services",
+    "services_en": [
+      "Mechanical"
+    ],
+    "services_ar": [
+      "ميكانيكا"
+    ],
+    "car_origins_en": [],
+    "car_origins_ar": [],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Breakdown service.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Qatar%20Car%20Services"
+  },
+  {
+    "id": 18,
+    "name": "Amigo Car Care",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "French",
+      "German",
+      "Japanese"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "فرنسي",
+      "ألماني",
+      "ياباني"
+    ],
+    "area_en": "Fereej Abdel Aziz",
+    "area_ar": "فريج عبد العزيز",
+    "zone": "14",
+    "lat": 25.2777,
+    "lon": 51.5242,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Toyota and Nissan specialists; complete car service.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Amigo%20Car%20Care"
+  },
+  {
+    "id": 19,
+    "name": "Rashid Auto Glass Sale and Fixing",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Auto glass replacement and repair.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Rashid%20Auto%20Glass%20Sale%20and%20Fixing"
+  },
+  {
+    "id": 20,
+    "name": "V8 GM Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American"
+    ],
+    "car_origins_ar": [
+      "أمريكي"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "American car service and spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/V8%20GM%20Garage"
+  },
+  {
+    "id": 21,
+    "name": "Qatar Tint - Home Service",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "French",
+      "German",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "فرنسي",
+      "ألماني",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Abu Hamour",
+    "area_ar": "أبو هامور",
+    "zone": "56",
+    "lat": 25.2388,
+    "lon": 51.4914,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "At-home window tinting.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Qatar%20Tint%20-%20Home%20Service"
+  },
+  {
+    "id": 22,
+    "name": "Volvo Spare Parts",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "German"
+    ],
+    "car_origins_ar": [
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Volvo spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Volvo%20Spare%20Parts"
+  },
+  {
+    "id": 23,
+    "name": "Japan Auto Special Center Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "French",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "فرنسي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Japanese, Korean, Chinese and American cars; AC, accident repair and paint.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Japan%20Auto%20Special%20Center%20Garage"
+  },
+  {
+    "id": 24,
+    "name": "Abeer Al Droube Spare Parts & Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Garage services and spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Abeer%20Al%20Droube%20Spare%20Parts%20&%20Garage"
+  },
+  {
+    "id": 25,
+    "name": "Al Balagh Berlin Auto",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "German"
+    ],
+    "car_origins_ar": [
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Mercedes-Benz specialist: maintenance, diagnostics, genuine parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al%20Balagh%20Berlin%20Auto"
+  },
+  {
+    "id": 26,
+    "name": "Al-Asayel Garage",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Used engines, gearboxes and parts for Japanese and Korean cars; service and repair.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al-Asayel%20Garage"
+  },
+  {
+    "id": 27,
+    "name": "Twin Turbo Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "Japanese"
+    ],
+    "car_origins_ar": [
+      "ياباني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Painting, precision denting and mechanical work.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Twin%20Turbo%20Garage"
+  },
+  {
+    "id": 28,
+    "name": "Cayman Automotive",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "German"
+    ],
+    "car_origins_ar": [
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Porsche and BMW service and spare parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Cayman%20Automotive"
+  },
+  {
+    "id": 29,
+    "name": "Al Sultan Auto Electricals",
+    "services_en": [
+      "Electrical"
+    ],
+    "services_ar": [
+      "كهرباء"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "56",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "AC repair and spare parts; Japanese and Korean specialist.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al%20Sultan%20Auto%20Electricals"
+  },
+  {
+    "id": 30,
+    "name": "Atlantic Auto Services",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [],
+    "car_origins_ar": [],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat: 8 AM-1 PM | Sun-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Engine and gearbox, diagnostics, suspension, brakes, AC, dent and paint, Istimara renewal; 14+ years.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Atlantic%20Auto%20Services"
+  },
+  {
+    "id": 31,
+    "name": "Garage Snafi",
+    "services_en": [
+      "Body Work",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Body work and accident repair, dents, paint.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Garage%20Snafi"
+  },
+  {
+    "id": 32,
+    "name": "Germany Auto Parts",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "German"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "German car repair, maintenance and parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Germany%20Auto%20Parts"
+  },
+  {
+    "id": 33,
+    "name": "Garage Forty",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "AC service, mechanical and engine work, body shop; all makes.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Garage%20Forty"
+  },
+  {
+    "id": 34,
+    "name": "BestGerman",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "German"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Diagnostics, brakes, suspension, oil change, AC, transmission.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/BestGerman"
+  },
+  {
+    "id": 35,
+    "name": "Crystal Spare Parts",
+    "services_en": [
+      "Mechanical"
+    ],
+    "services_ar": [
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "91",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Automotive oils and lubricants.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Crystal%20Spare%20Parts"
+  },
+  {
+    "id": 36,
+    "name": "Autobhan Accessories",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "34",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Car accessories, tinting, upholstery.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Autobhan%20Accessories"
+  },
+  {
+    "id": 37,
+    "name": "Spectra Auto Motors",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Wed: 7 AM-1 PM | Thu: 7 AM-8 PM | Fri: Closed",
+    "summary": "Repair, maintenance and upgrades for all vehicles.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Spectra%20Auto%20Motors"
+  },
+  {
+    "id": 38,
+    "name": "JM Star Auto Electric",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Mechanical repair; new and used engines, gearboxes, body parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/JM%20Star%20Auto%20Electric"
+  },
+  {
+    "id": 39,
+    "name": "Al Habeeb Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "All services, all brands.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Al%20Habeeb%20Garage"
+  },
+  {
+    "id": 40,
+    "name": "Hoorain Car Services",
+    "services_en": [
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "",
+    "area_ar": "",
+    "zone": "",
+    "lat": "",
+    "lon": "",
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Electrical and mechanical, all brands.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Hoorain%20Car%20Services"
+  },
+  {
+    "id": 41,
+    "name": "Maroush Car Repair",
+    "services_en": [
+      "Body Work",
+      "Electrical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء"
+    ],
+    "car_origins_en": [
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Fereej Bin Mahmoud",
+    "area_ar": "فريج بن محمود",
+    "zone": "23",
+    "lat": 25.2803,
+    "lon": 51.5124,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Detailing and polishing; windshield repair and replacement.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Maroush%20Car%20Repair"
+  },
+  {
+    "id": 42,
+    "name": "Mr. Benz Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "German"
+    ],
+    "car_origins_ar": [
+      "ألماني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Mercedes-Benz servicing and genuine parts.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Mr.%20Benz%20Garage"
+  },
+  {
+    "id": 43,
+    "name": "Elite Auto Garage",
+    "services_en": [
+      "Body Work"
+    ],
+    "services_ar": [
+      "سمكرة ودهان"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Al Bidda",
+    "area_ar": "البدع",
+    "zone": "57",
+    "lat": 25.2919,
+    "lon": 51.5216,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Denting and painting.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Elite%20Auto%20Garage"
+  },
+  {
+    "id": 44,
+    "name": "Lusail Garage ABS",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "Chinese",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "صيني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "ABS and brake booster repair; Industrial Area and Umm Salal.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Lusail%20Garage%20ABS"
+  },
+  {
+    "id": 45,
+    "name": "Qalandar Car Service, Al Wakrah",
+    "services_en": [
+      "Electrical"
+    ],
+    "services_ar": [
+      "كهرباء"
+    ],
+    "car_origins_en": [],
+    "car_origins_ar": [],
+    "area_en": "Al Afja",
+    "area_ar": "العفجة",
+    "zone": "91",
+    "lat": 25.010492,
+    "lon": 51.478959,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "General car repair; free inspection and quote.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Qalandar%20Car%20Service,%20Al%20Wakrah"
+  },
+  {
+    "id": 46,
+    "name": "Crazy Engine Center",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "British",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "بريطاني",
+      "فرنسي",
+      "ألماني",
+      "إيطالي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "AC, mechanical, dry-ice and steam cleaning, chassis repair, painting; pick-up and delivery.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Crazy%20Engine%20Center"
+  },
+  {
+    "id": 47,
+    "name": "New Ceylon Car Maintenance",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "French",
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "فرنسي",
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Abu Hamour",
+    "area_ar": "أبو هامور",
+    "zone": "56",
+    "lat": 25.2388,
+    "lon": 51.4914,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Toyota, Nissan, Mitsubishi, KIA, GMC; oil change, brakes, suspension, AC, electrical.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/New%20Ceylon%20Car%20Maintenance"
+  },
+  {
+    "id": 48,
+    "name": "Falcon Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "German",
+      "Japanese"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني",
+      "ياباني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Mechanics and detailing; appointments in advance.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Falcon%20Garage"
+  },
+  {
+    "id": 49,
+    "name": "Sky City Garage",
+    "services_en": [
+      "Body Work",
+      "Electrical",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "كهرباء",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "Japanese",
+      "Korean"
+    ],
+    "car_origins_ar": [
+      "ياباني",
+      "كوري"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Used spare parts; scrap and used car sale.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Sky%20City%20Garage"
+  },
+  {
+    "id": 50,
+    "name": "Q-GARAGE",
+    "services_en": [
+      "Body Work",
+      "Mechanical"
+    ],
+    "services_ar": [
+      "سمكرة ودهان",
+      "ميكانيكا"
+    ],
+    "car_origins_en": [
+      "American",
+      "German",
+      "Japanese"
+    ],
+    "car_origins_ar": [
+      "أمريكي",
+      "ألماني",
+      "ياباني"
+    ],
+    "area_en": "Industrial Area",
+    "area_ar": "المنطقة الصناعية",
+    "zone": "57",
+    "lat": 25.2029,
+    "lon": 51.4349,
+    "hours": "Sat-Thu: 9 AM-8 PM | Fri: Closed",
+    "summary": "Facelift, modification, painting, denting and mechanical work.",
+    "source_url": "https://www.qatarliving.com/en/vehicles/garages/Q-GARAGE"
+  }
+]

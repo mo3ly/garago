@@ -8,8 +8,8 @@ import {
   CalendarIcon,
   CarIcon,
   PinIcon,
+  LinkIcon,
   ShieldIcon,
-  TruckIcon,
 } from "@/components/brand-icons"
 import { GarageExplorer } from "@/components/garage-explorer"
 import { garages, textFor } from "@/data/garages"
@@ -22,7 +22,7 @@ const nav = [
   { href: "#partners", key: "partners" },
 ] as const
 
-const pillarIcons = [CarIcon, PinIcon, CalendarIcon, ShieldIcon, TruckIcon]
+const pillarIcons = [CarIcon, PinIcon, CalendarIcon, ShieldIcon, LinkIcon]
 const pillarKeys = ["car", "nearby", "book", "trusted", "pickup"] as const
 const districtKeys = [
   "industrial",
@@ -513,7 +513,7 @@ export function LandingPage() {
                 {t("pickup.body")}
               </p>
             </div>
-            <Van />
+            <LinkScene />
           </div>
         </section>
 
@@ -746,34 +746,19 @@ function CityScene() {
   )
 }
 
-function Van() {
+function LinkScene() {
   return (
-    <div className="relative aspect-[560/200] w-full">
-      <svg
-        viewBox="0 0 560 200"
-        className="absolute inset-0 h-full w-full"
+    <div className="relative flex items-center justify-center gap-4 sm:gap-8">
+      <span className="grid size-24 place-items-center rounded-3xl bg-white text-charcoal sm:size-28">
+        <PinIcon className="size-10 text-garago" />
+      </span>
+      <span
+        className="h-1 w-16 rounded-full bg-garago sm:w-24"
         aria-hidden="true"
-      >
-        <path
-          d="M16 168h528"
-          stroke="#ffffff"
-          strokeOpacity="0.14"
-          strokeWidth="2"
-        />
-        <path
-          fill="#F6F6F7"
-          d="M28 52h300c12 0 18 8 18 18v78H16V70c0-10 6-18 12-18Z"
-        />
-        <path fill="#F6F6F7" d="M346 84h92l78 46v18H346Z" />
-        <rect x="48" y="66" width="92" height="36" rx="5" fill="#1a1c22" />
-        <rect x="152" y="66" width="92" height="36" rx="5" fill="#1a1c22" />
-        <path d="M28 128h430" stroke="#FF6A00" strokeWidth="4" />
-        <circle cx="112" cy="158" r="22" fill="#111318" />
-        <circle cx="112" cy="158" r="8" fill="#FF6A00" />
-        <circle cx="438" cy="158" r="22" fill="#111318" />
-        <circle cx="438" cy="158" r="8" fill="#FF6A00" />
-      </svg>
-      <LogoMark className="absolute top-[34%] left-[44%] h-[27%] w-auto text-garago" />
+      />
+      <span className="grid size-24 place-items-center rounded-3xl bg-white sm:size-28">
+        <LogoMark className="h-12 w-auto text-garago" />
+      </span>
     </div>
   )
 }

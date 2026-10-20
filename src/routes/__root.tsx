@@ -21,7 +21,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Qatar's garage delivery platform. Find a trusted garage in Doha. We pick up your car and bring it back.",
+          "Find a trusted garage in Doha. Garago links you to the workshop. You take the car there.",
       },
       {
         name: "theme-color",

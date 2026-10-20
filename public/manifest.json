@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Garago — Your Car. Our Garages.",
   "short_name": "Garago",
-  "description": "Qatar's garage delivery platform. Find a trusted garage in Doha.",
+  "description": "Find a trusted garage in Doha. Garago links you to the workshop.",
   "start_url": "/en",
   "scope": "/",
   "display": "standalone",

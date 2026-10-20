@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LocaleRouteImport } from './routes/$locale'
 import { Route as LocaleIndexRouteImport } from './routes/$locale/index'
+import { Route as LocaleGaragesGarageIdRouteImport } from './routes/$locale/garages/$garageId'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,28 +29,36 @@ const LocaleIndexRoute = LocaleIndexRouteImport.update({
   path: '/',
   getParentRoute: () => LocaleRoute,
 } as any)
+const LocaleGaragesGarageIdRoute = LocaleGaragesGarageIdRouteImport.update({
+  id: '/garages/$garageId',
+  path: '/garages/$garageId',
+  getParentRoute: () => LocaleRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
   '/$locale/': typeof LocaleIndexRoute
+  '/$locale/garages/$garageId': typeof LocaleGaragesGarageIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$locale': typeof LocaleIndexRoute
+  '/$locale/garages/$garageId': typeof LocaleGaragesGarageIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$locale': typeof LocaleRouteWithChildren
   '/$locale/': typeof LocaleIndexRoute
+  '/$locale/garages/$garageId': typeof LocaleGaragesGarageIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/$locale' | '/$locale/'
+  fullPaths: '/' | '/$locale' | '/$locale/' | '/$locale/garages/$garageId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/$locale'
-  id: '__root__' | '/' | '/$locale' | '/$locale/'
+  to: '/' | '/$locale' | '/$locale/garages/$garageId'
+  id: '__root__' | '/' | '/$locale' | '/$locale/' | '/$locale/garages/$garageId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -80,15 +89,24 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocaleIndexRouteImport
       parentRoute: typeof LocaleRoute
     }
+    '/$locale/garages/$garageId': {
+      id: '/$locale/garages/$garageId'
+      path: '/garages/$garageId'
+      fullPath: '/$locale/garages/$garageId'
+      preLoaderRoute: typeof LocaleGaragesGarageIdRouteImport
+      parentRoute: typeof LocaleRoute
+    }
   }
 }
 
 interface LocaleRouteChildren {
   LocaleIndexRoute: typeof LocaleIndexRoute
+  LocaleGaragesGarageIdRoute: typeof LocaleGaragesGarageIdRoute
 }
 
 const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleIndexRoute: LocaleIndexRoute,
+  LocaleGaragesGarageIdRoute: LocaleGaragesGarageIdRoute,
 }
 
 const LocaleRouteWithChildren =

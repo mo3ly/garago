@@ -73,6 +73,31 @@ type Dictionary = {
     clear: string
     demo: string
     zone: string
+    view: string
+  }
+  garagePage: {
+    back: string
+    verified: string
+    unverified: string
+    about: string
+    hours: string
+    services: string
+    origins: string
+    location: string
+    listing: string
+    phone: string
+    whatsapp: string
+    since: string
+    bays: string
+    languages: string
+    languageValue: string
+    payments: string
+    paymentValue: string
+    visit: string
+    address: string
+    addressPlain: string
+    drive: string
+    more: string
   }
   places: { doha: string }
   garages: {
@@ -119,10 +144,10 @@ type Dictionary = {
 export const en = {
   metaTitle: "Garago — Your Car. Our Garages.",
   metaDescription:
-    "Qatar's garage delivery platform. Find a trusted garage in Doha. We pick up your car and bring it back.",
+    "Find a trusted garage in Doha. Garago links you to the workshop. You take the car there.",
   brandAlt: "Garago",
   langSwitch: "عربي",
-  footerLine: "Qatar's garage delivery platform · Doha",
+  footerLine: "Garages in Doha, linked directly",
   nav: {
     how: "How it works",
     services: "Services",
@@ -139,8 +164,8 @@ export const en = {
   hero: {
     tagline: "Your Car. Our Garages.",
     title1: "Find a garage.",
-    title2: "We'll take it from here.",
-    body: "Qatar's garage delivery platform. Tell us where the car is in Doha. A trusted workshop does the work, and we bring it back.",
+    title2: "We'll link you there.",
+    body: "Tell us where you are in Doha. Garago shows trusted workshops and puts you in touch. You take the car there.",
     location: "Your location",
     placeholder: "Doha, Qatar",
     defaultLocation: "Doha, Qatar",
@@ -151,30 +176,30 @@ export const en = {
     nearby: "Nearby Garages",
     book: "Book Appointment",
     trusted: "Trusted Garages",
-    pickup: "Pick-up & Delivery",
+    pickup: "Direct link",
   },
   how: {
     kicker: "How it works",
-    title: "From your street to a garage you can trust.",
+    title: "From your search to a garage you can trust.",
   },
   steps: [
     {
       n: "01",
       title: "Share where you are",
-      body: "Home, the office, or wherever the car is parked in Doha.",
+      body: "Home, the office, or the part of Doha you want a garage near.",
     },
     {
       n: "02",
       title: "Choose a trusted garage",
-      body: "See nearby workshops, the work they take, and when they can collect.",
+      body: "See nearby workshops, the work they do, and how to reach them.",
     },
     {
       n: "03",
-      title: "We take it from here",
-      body: "Pickup, the job, and the drive back. You skip the waiting room.",
+      title: "We link you",
+      body: "Send your name and number. The garage contacts you. You drive the car there.",
     },
   ],
-  workHeading: "The work drivers in Doha actually book.",
+  workHeading: "The work Doha garages actually do.",
   workItems: [
     {
       title: "Periodic service",
@@ -226,6 +251,32 @@ export const en = {
     clear: "Clear filters",
     demo: "Demo garages in Doha",
     zone: "Zone {{zone}}",
+    view: "View garage",
+  },
+  garagePage: {
+    back: "All garages",
+    verified: "Garago verified",
+    unverified: "Not verified yet",
+    about: "About this garage",
+    hours: "Hours",
+    services: "Services",
+    origins: "Cars they take",
+    location: "Location",
+    listing: "Public listing",
+    phone: "Phone",
+    whatsapp: "WhatsApp",
+    since: "Since",
+    bays: "Work bays",
+    languages: "Languages",
+    languageValue: "Arabic and English",
+    payments: "Payment",
+    paymentValue: "Cash, card, transfer",
+    visit: "Before you go",
+    address: "Zone {{zone}}, {{area}}, Doha",
+    addressPlain: "{{area}}, Doha",
+    drive:
+      "You drive the car to the garage. Garago only makes the introduction.",
+    more: "A {{bays}}-bay workshop in {{area}}, working since {{year}}. Ask them about {{services}}, then drive the car over.",
   },
   garagesCount_zero: "No garages",
   garagesCount_one: "{{count}} garage",
@@ -234,24 +285,24 @@ export const en = {
   garagesCount_many: "{{count}} garages",
   garagesCount_other: "{{count}} garages",
   pickup: {
-    kicker: "Pick-up & delivery",
-    title: "We come to the car.",
-    body: "A Garago van collects it from your door and brings it back when the garage is done. West Bay to Al Waab, the drive is ours.",
+    kicker: "A direct link",
+    title: "We link you to the garage.",
+    body: "Garago introduces you to the workshop. You drive the car there, and the garage does the work.",
   },
   pickupForm: {
-    request: "Request pickup",
-    change: "Change garage",
+    request: "Contact this garage",
+    change: "Choose another",
     meta: "{{area}} · {{pickup}}",
-    sent: "Request sent to {{name}}. They'll confirm a collection window for {{location}}.",
+    sent: "Your details went to {{name}}. They'll contact you. You take the car to them.",
     name: "Your name",
     mobile: "Mobile",
-    confirm: "Confirm pickup",
+    confirm: "Send to garage",
     error: "Enter your name and a mobile number.",
   },
   partners: {
     kicker: "For garages",
-    title: "List the workshop. We'll bring the cars.",
-    body: "Garago sends drivers who already know what they need. You stay on the tools. We handle pickup and the ride back.",
+    title: "List the workshop. We'll send people your way.",
+    body: "Drivers looking for a garage in Doha find you here and contact you directly. You stay on the tools.",
     thanks: "Thanks. We'll write to {{email}} about listing {{garage}}.",
     garageName: "Garage name",
     area: "Area in Qatar",
@@ -265,14 +316,14 @@ export const en = {
     westBay: {
       name: "West Bay Auto Care",
       area: "West Bay",
-      note: "Pickup along the Corniche and the West Bay towers.",
+      note: "Workshops along the Corniche and the West Bay towers.",
       pickup: "35 min",
       services: ["Periodic service", "AC", "Brakes"],
     },
     lusail: {
       name: "Lusail Motor Works",
       area: "Lusail",
-      note: "Collection across Lusail and Fox Hills.",
+      note: "Workshops across Lusail and Fox Hills.",
       pickup: "50 min",
       services: ["Tires", "Periodic service", "Battery"],
     },
@@ -286,7 +337,7 @@ export const en = {
     pearl: {
       name: "Pearl Service Hub",
       area: "The Pearl",
-      note: "Island pickup from Porto Arabia and the towers.",
+      note: "Workshops at Porto Arabia and the towers.",
       pickup: "40 min",
       services: ["AC", "Periodic service", "Detailing"],
     },
@@ -300,7 +351,7 @@ export const en = {
     msheireb: {
       name: "Msheireb Workshop",
       area: "Msheireb",
-      note: "Downtown collection, returned the same day when the job allows.",
+      note: "A downtown workshop for a same-day look when the job allows.",
       pickup: "25 min",
       services: ["Inspection", "Periodic service", "AC"],
     },
@@ -310,10 +361,10 @@ export const en = {
 export const ar = {
   metaTitle: "كراجو — سيارتك. كراجاتنا.",
   metaDescription:
-    "منصة توصيل الكراجات في قطر. اعثر على كراج موثوق في الدوحة. نستلم سيارتك ونعيدها إليك.",
+    "اعثر على كراج موثوق في الدوحة. كراجو توصلك بالورشة، وأنت تأخذ السيارة إليها.",
   brandAlt: "كراجو",
   langSwitch: "EN",
-  footerLine: "منصة توصيل الكراجات في قطر · الدوحة",
+  footerLine: "كراجات الدوحة، بوصل مباشر",
   nav: {
     how: "كيف تعمل",
     services: "الخدمات",
@@ -330,8 +381,8 @@ export const ar = {
   hero: {
     tagline: "سيارتك. كراجاتنا.",
     title1: "اعثر على كراج.",
-    title2: "والباقي علينا.",
-    body: "منصة توصيل الكراجات في قطر. أخبرنا أين السيارة في الدوحة. كراج موثوق ينجز العمل، ونحن نعيدها إليك.",
+    title2: "ونوصلك إليه.",
+    body: "أخبرنا أين أنت في الدوحة. كراجو تعرض الورش الموثوقة وتوصلك بها. أنت تأخذ السيارة إلى هناك.",
     location: "موقعك",
     placeholder: "الدوحة، قطر",
     defaultLocation: "الدوحة، قطر",
@@ -342,30 +393,30 @@ export const ar = {
     nearby: "كراجات قريبة",
     book: "حجز موعد",
     trusted: "كراجات موثوقة",
-    pickup: "الاستلام والتوصيل",
+    pickup: "وصل مباشر",
   },
   how: {
     kicker: "كيف تعمل",
-    title: "من شارعك إلى كراج تثق به.",
+    title: "من بحثك إلى كراج تثق به.",
   },
   steps: [
     {
       n: "٠١",
       title: "أخبرنا أين أنت",
-      body: "في البيت، أو المكتب، أو حيث تكون السيارة متوقفة في الدوحة.",
+      body: "في البيت، أو المكتب، أو المنطقة التي تريد كراجاً قريباً منها.",
     },
     {
       n: "٠٢",
       title: "اختر كراجاً موثوقاً",
-      body: "شاهد الورش القريبة، ما الذي تقبله، ومتى تستطيع الاستلام.",
+      body: "شاهد الورش القريبة، ما الذي تعمله، وكيف تتواصل معها.",
     },
     {
       n: "٠٣",
-      title: "والباقي علينا",
-      body: "الاستلام، العمل، ثم إعادة السيارة. بلا غرفة انتظار.",
+      title: "نوصلك بالكراج",
+      body: "أرسل اسمك ورقمك. الكراج يتواصل معك، وأنت تأخذ السيارة إليه.",
     },
   ],
-  workHeading: "ما يحجزه السائقون في الدوحة فعلاً.",
+  workHeading: "ما تعمله كراجات الدوحة فعلاً.",
   workItems: [
     {
       title: "صيانة دورية",
@@ -418,6 +469,31 @@ export const ar = {
     clear: "مسح التصفية",
     demo: "كراجات تجريبية في الدوحة",
     zone: "منطقة {{zone}}",
+    view: "عرض الكراج",
+  },
+  garagePage: {
+    back: "كل الكراجات",
+    verified: "موثّق من كراجو",
+    unverified: "غير موثّق بعد",
+    about: "عن هذا الكراج",
+    hours: "ساعات العمل",
+    services: "الخدمات",
+    origins: "السيارات التي يستقبلها",
+    location: "الموقع",
+    listing: "الصفحة العامة",
+    phone: "الهاتف",
+    whatsapp: "واتساب",
+    since: "منذ",
+    bays: "مسارات العمل",
+    languages: "اللغات",
+    languageValue: "العربية والإنجليزية",
+    payments: "الدفع",
+    paymentValue: "نقداً، بطاقة، تحويل",
+    visit: "قبل الزيارة",
+    address: "منطقة {{zone}}، {{area}}، الدوحة",
+    addressPlain: "{{area}}، الدوحة",
+    drive: "أنت تقود السيارة إلى الكراج. كراجو تقتصر على التعريف.",
+    more: "ورشة من {{bays}} مسارات في {{area}}، تعمل منذ {{year}}. اسألهم عن {{services}}، ثم خذ السيارة إليهم.",
   },
   garagesCount_zero: "لا توجد كراجات",
   garagesCount_one: "كراج واحد",
@@ -426,24 +502,24 @@ export const ar = {
   garagesCount_many: "{{count}} كراجاً",
   garagesCount_other: "{{count}} كراج",
   pickup: {
-    kicker: "الاستلام والتوصيل",
-    title: "نأتي إلى السيارة.",
-    body: "فان كراجو يستلمها من بابك ويعيدها عندما ينتهي الكراج. من الخليج الغربي إلى الوعب، المشوار علينا.",
+    kicker: "وصل مباشر",
+    title: "نوصلك بالكراج.",
+    body: "كراجو تعرّفك بالورشة. أنت تقود السيارة إليها، والكراج ينجز العمل.",
   },
   pickupForm: {
-    request: "اطلب الاستلام",
-    change: "تغيير الكراج",
+    request: "تواصل مع الكراج",
+    change: "اختر كراجاً آخر",
     meta: "{{area}} · {{pickup}}",
-    sent: "أُرسل الطلب إلى {{name}}. سيؤكدون وقت الاستلام في {{location}}.",
+    sent: "أُرسلت بياناتك إلى {{name}}. سيتواصلون معك، وأنت تأخذ السيارة إليهم.",
     name: "اسمك",
     mobile: "الجوال",
-    confirm: "تأكيد الاستلام",
+    confirm: "إرسال إلى الكراج",
     error: "أدخل اسمك ورقم الجوال.",
   },
   partners: {
     kicker: "لأصحاب الكراجات",
-    title: "سجّل الورشة. ونحن نأتي بالسيارات.",
-    body: "كراجو يرسل سائقين يعرفون ما يحتاجونه. أنت تبقى على العمل، ونحن نتولى الاستلام والعودة.",
+    title: "سجّل الورشة. ونوصل إليك الناس.",
+    body: "من يبحث عن كراج في الدوحة يجدك هنا ويتواصل معك مباشرة. أنت تبقى على العمل.",
     thanks: "شكراً. سنراسل {{email}} بخصوص إدراج {{garage}}.",
     garageName: "اسم الكراج",
     area: "المنطقة في قطر",
@@ -457,14 +533,14 @@ export const ar = {
     westBay: {
       name: "عناية الخليج الغربي",
       area: "الخليج الغربي",
-      note: "استلام على الكورنيش وأبراج الخليج الغربي.",
+      note: "ورش على الكورنيش وأبراج الخليج الغربي.",
       pickup: "٣٥ دقيقة",
       services: ["صيانة دورية", "تكييف", "فرامل"],
     },
     lusail: {
       name: "ورش لوسيل",
       area: "لوسيل",
-      note: "استلام في لوسيل وفوكس هيلز.",
+      note: "ورش في لوسيل وفوكس هيلز.",
       pickup: "٥٠ دقيقة",
       services: ["إطارات", "صيانة دورية", "بطارية"],
     },
@@ -478,7 +554,7 @@ export const ar = {
     pearl: {
       name: "مركز خدمة اللؤلؤة",
       area: "اللؤلؤة",
-      note: "استلام من بورتو أرابيا والأبراج.",
+      note: "ورش في بورتو أرابيا والأبراج.",
       pickup: "٤٠ دقيقة",
       services: ["تكييف", "صيانة دورية", "تلميع"],
     },
@@ -492,7 +568,7 @@ export const ar = {
     msheireb: {
       name: "ورشة مشيرب",
       area: "مشيرب",
-      note: "استلام من وسط المدينة، والإعادة في اليوم نفسه حين يسمح العمل.",
+      note: "ورشة في وسط المدينة، بنظرة في اليوم نفسه حين يسمح العمل.",
       pickup: "٢٥ دقيقة",
       services: ["فحص", "صيانة دورية", "تكييف"],
     },

@@ -55,13 +55,11 @@ export function ShieldIcon(props: SVGProps<SVGSVGElement>) {
   )
 }
 
-export function TruckIcon(props: SVGProps<SVGSVGElement>) {
+export function LinkIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <Icon {...props}>
-      <path d="M3 7.5h11v8H3z" />
-      <path d="M14 10.5h3.2L20 13v2.5h-6" />
-      <circle cx="7" cy="17.2" r="1.5" />
-      <circle cx="16.5" cy="17.2" r="1.5" />
+      <path d="M10.2 13.2a4.2 4.2 0 0 0 6 .2l1.6-1.6a4.2 4.2 0 0 0-6-6L10.4 7.2" />
+      <path d="M13.8 10.8a4.2 4.2 0 0 0-6-.2l-1.6 1.6a4.2 4.2 0 0 0 6 6l1.4-1.4" />
     </Icon>
   )
 }

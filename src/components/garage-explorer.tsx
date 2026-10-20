@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react"
+import { Link } from "@tanstack/react-router"
 import { useTranslation } from "react-i18next"
 import {
   Map,
@@ -16,6 +17,7 @@ import {
   textFor,
   type DemoGarage,
 } from "@/data/garages"
+import { VerifiedBadge } from "@/components/verified-badge"
 import { cn } from "cn"
 
 type GarageExplorerProps = {
@@ -157,8 +159,7 @@ export function GarageExplorer({
                       active && "ring-2 ring-garago"
                     )}
                   >
-                    <button
-                      type="button"
+                    <div
                       className="w-full text-start"
                       onClick={() => onSelect(garage.id)}
                     >
@@ -167,8 +168,21 @@ export function GarageExplorer({
                           <p className="text-sm font-semibold text-garago">
                             {area}
                           </p>
-                          <h3 className="mt-1 text-lg font-semibold">
-                            {garage.name}
+                          <h3 className="mt-1 flex flex-wrap items-center gap-2 text-lg font-semibold">
+                            <Link
+                              to="/$locale/garages/$garageId"
+                              params={{
+                                locale,
+                                garageId: String(garage.id),
+                              }}
+                              className="hover:text-garago"
+                              onClick={(event) => event.stopPropagation()}
+                            >
+                              {garage.name}
+                            </Link>
+                            {garage.verified ? (
+                              <VerifiedBadge label={t("garagePage.verified")} />
+                            ) : null}
                           </h3>
                         </div>
                         {garage.zone ? (
@@ -187,7 +201,7 @@ export function GarageExplorer({
                             : garage.hours
                           : t("map.noPin")}
                       </p>
-                    </button>
+                    </div>
                     <ul className="mt-3 flex flex-wrap gap-2">
                       {garage.services.map((item) => (
                         <li
@@ -241,21 +255,11 @@ export function GarageExplorer({
                           )}
                         />
                       </MarkerContent>
-                      <MarkerPopup className="w-60 border-0 bg-white p-0 shadow-xl">
-                        <div className="space-y-1 text-start">
-                          <p className="text-xs font-semibold text-garago">
-                            {textFor(garage.area, locale)}
-                          </p>
-                          <p className="font-semibold">{garage.name}</p>
-                          <p className="text-xs leading-relaxed text-mist">
-                            {garage.summary}
-                          </p>
-                          {garage.approximate ? (
-                            <p className="text-[11px] font-medium text-mist">
-                              {t("map.approximate")}
-                            </p>
-                          ) : null}
-                        </div>
+                      <MarkerPopup
+                        closeOnClick={false}
+                        className="w-[19rem] max-w-[19rem] overflow-hidden rounded-2xl border-0 bg-white p-0 shadow-[0_22px_50px_-24px_rgba(17,19,24,0.55)]"
+                      >
+                        <GaragePopup garage={garage} locale={locale} />
                       </MarkerPopup>
                     </MapMarker>
                   ) : null
@@ -266,6 +270,61 @@ export function GarageExplorer({
           </div>
         </div>
       )}
+    </div>
+  )
+}
+
+function GaragePopup({
+  garage,
+  locale,
+}: {
+  garage: DemoGarage
+  locale: "en" | "ar"
+}) {
+  const { t } = useTranslation()
+  const area = textFor(garage.area, locale)
+  return (
+    <div className="text-start">
+      <div className="h-1.5 bg-garago" />
+      <div className="space-y-2.5 p-3.5">
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-[11px] font-semibold tracking-wide text-garago uppercase">
+            {area}
+          </p>
+          {garage.verified ? (
+            <VerifiedBadge label={t("garagePage.verified")} />
+          ) : null}
+        </div>
+        <p className="text-base leading-tight font-semibold">{garage.name}</p>
+        <p className="line-clamp-2 text-xs leading-relaxed text-mist">
+          {garage.summary}
+        </p>
+        <div className="flex flex-wrap gap-1.5">
+          {garage.services.slice(0, 3).map((item) => (
+            <span
+              key={item.en}
+              className="rounded-full bg-cool px-2 py-0.5 text-[11px] font-medium"
+            >
+              {textFor(item, locale)}
+            </span>
+          ))}
+        </div>
+        {garage.approximate ? (
+          <p className="text-[11px] font-medium text-mist">
+            {t("map.approximate")}
+          </p>
+        ) : null}
+        <Link
+          to="/$locale/garages/$garageId"
+          params={{ locale, garageId: String(garage.id) }}
+          className={cn(
+            buttonVariants(),
+            "mt-1 h-9 w-full rounded-full text-sm font-semibold"
+          )}
+        >
+          {t("map.view")}
+        </Link>
+      </div>
     </div>
   )
 }

@@ -14,6 +14,7 @@ type RawGarage = {
   lon: number | string
   hours: string
   summary: string
+  source_url: string
 }
 
 export type LocaleText = { en: string; ar: string }
@@ -27,6 +28,8 @@ export type DemoGarage = {
   zone: string
   hours: string
   summary: string
+  sourceUrl: string
+  verified: boolean
   pin: { lat: number; lon: number } | null
   approximate: boolean
   search: string
@@ -135,11 +138,17 @@ export const garages: DemoGarage[] = raw.map((garage, index) => {
     zone: garage.zone,
     hours: garage.hours,
     summary: garage.summary,
+    sourceUrl: garage.source_url,
+    verified: Boolean(garage.source_url && placed[index]?.pin),
     pin: placed[index]?.pin ?? null,
     approximate: placed[index]?.approximate ?? false,
     search,
   }
 })
+
+export function garageById(id: number) {
+  return garages.find((garage) => garage.id === id)
+}
 
 export function textFor(item: LocaleText, locale: "en" | "ar") {
   return locale === "ar" ? item.ar : item.en
